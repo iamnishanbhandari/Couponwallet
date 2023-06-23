@@ -1,0 +1,45 @@
+.coupon-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.coupon-item.redeemed {
+  background-color: #f2f2f2;
+}
+
+.coupon-details {
+  flex: 1;
+}
+
+.coupon-code {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.coupon-discount {
+  font-size: 14px;
+  color: #666;
+}
+
+.redeem-button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.redeem-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.redeem-button.redeemed {
+  background-color: #ccc;
+}
